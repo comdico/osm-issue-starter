@@ -1,0 +1,57 @@
+.by-author {
+  float: right;
+	font-weight: bold;
+}
+
+.dropcap {
+	float: left;
+	font-size: 3.5em;
+	margin: 10px 4px 8px 0px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 600;
+	display: block;
+}
+
+.bigger {
+  font-size: 18px;
+}
+figure {
+  margin:0;
+}
+figcaption {
+  line-height: 1.2em;
+  font-size: .8em;
+  width: 100%;
+  max-width: inherit;
+  display: block;
+  margin-top: .25em;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+figcaption .figlead {
+  line-height: 1.2em;
+  font-size: .9em;
+}
+
+blockquote {
+  margin:1em 4.5em;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  width:66%;
+}
+
+.header-spine span {
+  float: left;
+	font-size: 3.5em;
+	margin: 10px 4px 8px 0px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 600;
+	display: block;
+}
+.larger-cap span {
+  font-size: 20px;
+  line-height: 22px;
+}
+.red {
+  color: blue;
+
+}

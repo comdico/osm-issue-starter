@@ -1,0 +1,494 @@
+
+//
+// LEGACY
+//================
+
+
+/* COLORS */
+
+/* brand */
+.osmblue {
+	color: #046b8a;
+}
+
+/* issue */
+.sanjuan {
+  color: #485361;
+}
+
+.picton-blue {
+  color:#48ACE0;
+}
+
+.grenadier {
+  color: #C05636;
+}
+.black {
+  color: #000000;
+}
+
+.cornell-red {
+  color: #B21719;
+}
+
+.blue-bayoux {
+  color: #4B687A;
+  /* color: rgba(75, 104, 122, 1.00); */
+}
+
+.san-marino {
+  color: rgba(82, 107, 176, 1.00);
+}
+
+/* TYPOGRAPHY */
+h3 {
+	margin-top: .5em;
+}
+
+ol {
+  padding-left: 1.2em;
+}
+.bullet__list dt {
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+.bullet__list span {
+	background-color: #4B687A;
+	padding: .5em .8em;
+	font-size: 1.2em;
+	border-radius: 50%;
+	line-height: 2.2em;
+	color: #fff;
+}
+
+.dropcap {
+	float: left;
+	font-size: 3.5em;
+	margin: 10px 4px 8px 0px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 600;
+	display: block;
+}
+figure {
+  margin:0;
+}
+figcaption {
+  line-height: 1.2em;
+  font-size: .8em;
+  width: 100%;
+  max-width: inherit;
+  display: block;
+  margin-top: .25em;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+figcaption .figlead {
+  line-height: 1.2em;
+  font-size: .9em;
+}
+
+.by-author {
+  float: right;
+	font-weight: bold;
+}
+
+/* blockquote */
+
+.blockquote__compounding {
+  color:#48ACE0;
+  margin:1em 4.5em;
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+.blockquote__on-point {
+  color: rgba(75, 104, 122, 1.00);
+  margin:1em auto;
+  font-size: 1.2em;
+  line-height: 1.2em;
+	width:40%;
+	padding:.6em 0;
+	border-top:1px dotted rgba(75, 104, 122, 1.00);
+	border-bottom:1px dotted rgba(75, 104, 122, 1.00);
+}
+.blockquote__ferro{
+  color:#788e9b;
+  font-size: 1.5em;
+  line-height: 01.2em;
+}
+
+/* titles */
+.sansguidetitle {
+	font-family: pt-sans-narrow, sans-serif;
+	font-size: 1.3em;
+	font-weight: 600;
+}
+/* .sanstitle {
+	font-family: open-sans-condensed, sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+} */
+.sanstitlethin {
+	font-family: open-sans-condensed, sans-serif;
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+.qa h3 {
+	color: #4B687A;
+	font-size: 1.1em;
+}
+
+/* captions */
+
+.captionsm {
+	line-height: 1.2em;
+	font-size: .8em;
+	width: 100%;
+	max-width: 210px;
+	display: block;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+.captionmed {
+	line-height: 1.2em;
+	font-size: .8em;
+	width: 100%;
+	max-width: inherit;
+	display: block;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+.captionlg {
+	line-height: 1em;
+	font-size: .78em;
+	max-width: 432px;
+	width: 100%;
+	text-align: left;
+	display: block;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	margin-top: .5em;
+}
+.captionfull {
+	line-height: 1.2em;
+	font-size: .8em;
+	width: 100%;
+	max-width: inherit;
+	display: block;
+	margin-top: .25em;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+/* PHOTOS */
+
+.divbeginright {
+	width: 320px;
+	display: block;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	float: right;
+	margin-left: 5px;
+}
+.divphotofull {
+	max-width: 700px;
+	width: 100%;
+	display: block;
+	padding-bottom: 8px;
+}
+
+.divphotoleft {
+	max-width: 320px;
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+.divphotoright {
+	max-width: 320px;
+	width: 100%;
+	display: block;
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+/* .divphotosm {
+	max-width: 210px;
+	display: block;
+	float: right;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	margin-left: 5px;
+	}
+.divphotosmleft {
+	max-width: 210px;
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	margin-right: 5px;
+	}
+.divphotomed {
+	max-width: 300px;
+	display: block;
+	float: right;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	margin-left: 5px;
+	}
+.divphotomedsimple {
+	max-width: 220px;
+	display: block;
+	padding-bottom: 5px;
+	}
+.divphotomedleft {
+	max-width: 300px;
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	margin-left: 0;
+	}
+.divphotomedright {
+	max-width: 340px;
+	display: block;
+	float: right;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	margin-right: 0;
+	}
+
+.divphotosblg {
+	max-width: 450px;
+	display: block;
+	float: right;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	margin-left: 5px;
+	}
+.divphoto {
+	max-width: 225px;
+	width: 100%
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+
+}
+.divphotopoll {
+	max-width: 210px;
+	width: 100%
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	margin-right: 5px;
+}
+.divphotosimple {
+	max-width: 210px;
+	width: 100%
+	display: block;
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.divphotosimpleleft {
+	max-width: 210px;
+	width: 100%
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.divphotoleft {
+	max-width: 300px;
+	width: 100%
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+.divphotoright {
+	max-width: 275px;
+	width: 100%
+	display: block;
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 8px;
+	margin-top: 8px;
+} */
+
+/* ASIDES */
+
+#article-content aside {
+  width: 98%;
+  overflow: hidden;
+  padding: 1.3em 1.3em .5em 1.3em;
+  margin: 1em 0;
+}
+
+#article-content .aside__confessions {
+  background-color: #C9E6E7;
+}
+#article-content .aside__dvt {
+  background-color: #E2E2E2;
+}
+#article-content .aside__trendelenburg {
+  background-color: #EAEDEF;
+}
+#article-content .aside__arthroscope {
+  border-top: 1px solid #000;
+}
+#article-content .aside__invendoscope {
+  /* border-top: 1px solid #000; */
+  min-height: 505px;
+  background-image: url("/issues/2018/01/images/52_bg_invendoscope.jpg");
+  background-repeat: no-repeat;
+}
+#article-content .aside__spyglass {
+  /* border-top: 1px solid #000; */
+  min-height: 505px;
+  background-image: url("/issues/2018/01/images/52_bg_spyglass.jpg");
+  background-repeat: no-repeat;
+}
+#article-content .aside__bronchoscope {
+  /* border-top: 1px solid #000; */
+  min-height: 505px;
+  background-image: url("/issues/2018/01/images/52_bg_neoflex.jpg");
+  background-repeat: no-repeat;
+}
+#article-content .aside__cataracts, #article-content .aside__patient-safety {
+  /* border-top: 1px solid #000; */
+  background-color: RGBA(226, 226, 226, 1.00);
+  position: relative;
+}
+#article-content .aside__full {
+  /* border-top: 1px solid #000; */
+  background-color: RGBA(226, 226, 226, 1.00);
+  position: relative;
+}
+
+#article-content .aside__orrex {
+  border-top: 1px solid #000;
+}
+
+#article-content aside h4 {
+  color: #747474;
+  font-size: .9em;
+}
+#article-content aside h5 {
+  color: #C05636;
+  font-size: 1.4em;
+  margin-bottom: .5em;
+}
+#article-content aside.aside__trendelenburg h5 {
+  color: #4B687A;
+}
+#article-content aside.aside__orrex h4, #article-content aside.aside__spyglass h4, #article-content aside.aside__arthroscope h4, #article-content aside.aside__invendoscope h4  {
+  color: #4B687A;
+  font-size: 1.3em;
+}
+#article-content aside.aside__cataracts h4 {
+  font-size: 1.3em;
+	color: #B21719;
+}
+
+#article-content aside.aside__bronchoscope h4 span  {
+  color: #f0f3f4;
+}
+
+#article-content aside.aside__no-show h4 {
+  font-size: 2.1em;
+  width: 30%;
+  color: #000;
+  position: absolute;
+  top: 1.2em;
+  left: 1em;
+  line-height: 1em;
+}
+#article-content aside.aside__warranty h4 {
+  color: RGBA(75, 104, 122, .80);
+  text-transform: uppercase;
+}
+#article-content aside.aside__warranty h5 {
+  color: #000;
+}
+
+
+#article-content aside.aside__orrex h5, #article-content aside.aside__arthroscope h5, #article-content aside.aside__invendoscope h5 {
+  color: #6f8695;
+  font-size: 1.3em;
+}
+#article-content aside.aside__spyglass h4 span {
+  color: #6f8695;
+}
+
+#article-content aside p {
+  font-size: .9em;
+}
+.aside__purse-strings table {
+  margin-bottom: .5em;
+  border-collapse: collapse;
+}
+
+.aside__purse-strings thead {
+  background-color: red;
+  color: white;
+  font-size: .8em;
+}
+.aside__purse-strings tr.odd {
+  background-color: #fff;
+}
+.aside__purse-strings tr.even {
+  background-color: #ccc;
+}
+.aside__purse-strings td, .aside__purse-strings th  {
+   padding: .5em 1em;
+   border: 1px solid #bbb;
+}
+.aside__purse-strings td {
+   font-size: .8em;
+}
+
+.aside__warranty {
+  background-color: rgba(234, 237, 239, 1.00);
+}
+
+
+/* DIVS */
+
+.clearfix { clear:both}
+
+.arthroscope__text {
+  display: block;
+  width: 33%;
+}
+.orrex__text {
+  display: block;
+  width: 50%;
+}
+.invendoscope__text {
+  display: block;
+  width: 24%;
+  float: right;
+  margin-top:1em;
+}
+.spyglass__text {
+  display: block;
+  width: 42%;
+  float: left;
+  margin-top:1em;
+}
+.spyglass__text  p{
+  margin-top: 1.5em;
+}
+.orrex__text  p {
+  margin-top: 1.5em;
+  margin-right: 5em;
+}
+.bronchoscope__text  p {
+  margin-top: 1.5em;
+  width:75%;
+  color:#fff;
+}
